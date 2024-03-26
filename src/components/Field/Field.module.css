@@ -1,0 +1,19 @@
+.FieldContainer {
+    display: grid;
+    grid-template-rows: 80px 80px 80px;
+    grid-template-columns: 80px 80px 80px;
+    color: red;
+    gap: 2px;
+  }
+  .FieldCells, .FieldCellsActive {
+    font-size: 38px;
+    border: 2px solid rgb(52, 93, 100);
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .FieldCellsActive {
+    border: 2px solid rgb(99, 219, 240);
+    background-image: linear-gradient(to top, rgba(3, 111, 6, 20%) 25%, rgba(7, 168, 44, 20%) 100%);
+  }

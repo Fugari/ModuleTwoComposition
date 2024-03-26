@@ -1,0 +1,7 @@
+.InfoText {
+  margin-top: 20px;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: rgb(99, 219, 240);
+  text-shadow: 2px 4px 6px rgb(246, 39, 39), 0 0 1em rgba(0, 0, 255, 0.752), 0 0 0.2em blue;
+}
